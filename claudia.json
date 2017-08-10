@@ -1,11 +1,11 @@
 {
   "lambda": {
-    "role": "claudia-test-executor",
-    "name": "claudia-test",
+    "role": "311-Lambda-Role",
+    "name": "sonar",
     "region": "us-east-1"
   },
   "api": {
-    "id": "slssldemca",
+    "id": "nc6bjdqazk",
     "module": "index"
   }
 }

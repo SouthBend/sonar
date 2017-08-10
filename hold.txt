@@ -1,0 +1,7 @@
+"bus stops": {
+    "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Transportation_WebMercator/MapServer/53",
+    "distance": 1000,
+    "template": "The nearest stop is at {BSTP_MSG_TEXT}"
+  }
+  
+  

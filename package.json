@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "claudia create --configure-fb-bot --region us-east-1 --api-module index --cache-api-config apiConfig --role 311-Lambda-Role",
+    "create": "claudia create --configure-fb-bot --region us-east-1 --api-module index --cache-api-config apiConfig --role 311-Lambda-Role ",
     "logs": "aws logs filter-log-events --log-group-name /aws/lambda/claudia-test",
     "update": "claudia update --cache-api-config apiConfig"
   },
@@ -13,6 +13,7 @@
   "dependencies": {
     "claudia-bot-builder": "^2.15.0",
     "dynamodb-doc": "^1.0.0",
+    "nodejs": "0.0.0",
     "q": "^1.5.0",
     "request": "^2.81.0",
     "request-promise": "^4.1.1"
